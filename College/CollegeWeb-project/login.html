@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+    }
+    .form{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+    h1{
+    font-size:70px;
+    font-weight:900;
+    }
+    #same{
+        font-size:20px;
+        margin-left: 35px;
+    }
+    #same1{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    button{
+        height: 70px;
+        width: 100px;
+        margin-top:30px;
+        background-color:rgb(238, 230, 230);
+        color:red;
+        border-radius:.09rem;
+        font-size:20px;
+    }
+    button:hover{
+        background-color:black;
+        color:white;
+    }
+    .button{
+        height: 70px;
+        width: 400px;
+        display:flex;
+        justify-content:space-evenly;
+    }
+    caption{
+        font-size:20px;
+        font-weight: 800;
+    }
+      #class1{
+        display: flex;
+        height: 35px;
+        
+      }
+      h4{
+        font-size: 20px;
+      }
+</style>
+<body>
+    <form class="form">
+        <div>
+
+        <h1>Login Page</h1>
+        <br><br><br>
+        <div id="class1">
+        <h4>Roll no:-</h4>
+        <input id="same" type="text" placeholder="Rollno." maxlength="5" pattern="{0-9}" required size="17">
+        </div>
+        <br><br>
+        <div id="class1">
+        <h4>User Name:-</h4>
+        <input id="same1" type="text" placeholder="User Name" size="17">
+        </div>
+        <br><br>
+        <div id="class1">
+        <h4>Password:-</h4>
+        <input id="same" type="password" placeholder="Password" maxlength="15" minlength="8" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}"
+         title="Must contain at least 8 characters, including uppercase, lowercase, number, and special character"
+         required size="16">
+        </div>
+        <br><br>
+        <div class="button">
+        <button >Submit</button>
+        <button >Reset</button>
+        </div>
+        </div>
+
+    </form>
+</body>
+</html>
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .form {
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      font-size: 70px;
+      font-weight: 900;
+      text-decoration: underline;
+    }
+    #same {
+      font-size: 30px;
+    }
+    label {
+      font-size: 20px;
+      font-weight: 800;
+      display: block;   /* हर label नई लाइन पर */
+      margin-top: 10px;
+    }
+    button {
+      height: 70px;
+      width: 70px;
+      margin-top: 30px;
+      background-color: red;
+      color: white;
+      border-radius: 1rem;
+      font-size: 20px;
+    }
+    button:hover {
+      background-color: black;
+      color: white;
+    }
+    .button {
+      height: 70px;
+      width: 400px;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  </style>
+</head>
+<body>
+  <form class="form">
+    <div>
+      <h1>Login Page</h1>
+      <br><br><br>
+
+      <label for="roll">Roll no:-</label>
+      <input id="roll" type="text" placeholder="Rollno" maxlength="5" required size="20">
+
+      <label for="user">User Name:-</label>
+      <input id="user" type="text" placeholder="User Name" size="18">
+
+      <label for="pass">Password:-</label>
+      <input id="pass" type="password" placeholder="Password" maxlength="15" minlength="8"
+        pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}"
+        title="Must contain at least 8 characters, including uppercase, lowercase, number, and special character"
+        required size="19">
+
+      <div class="button">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </div>
+  </form>
+</body>
+</html> -->

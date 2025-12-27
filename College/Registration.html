@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+</head>
+<body>
+    <form id="form">
+        <h1>Registration form , only for college students </h1>
+        <caption>Name :-</caption>
+        <input id="name" type="text" placeholder="Full name" size="30px">
+        <br><br>
+        <caption>Password:-</caption>
+        <input id="password" type="password" placeholder="Password"  size="32px">
+        <br><br>
+        <caption>Phone No :-</caption>
+        <input id="phone" type="text" placeholder="Phone no"  size="31px">
+        <br><br>
+        <caption>Email Id:-</caption>
+        <input id="email" type="email" placeholder="Email id" size="28px">
+        <br><br>
+        <h2>Languages Known </h2>
+        <input type="radio" value="Hindi" type="language">Hindi
+        <input type="radio" value="English" type="language">English
+        <input type="radio" value="Telugu" type="language">Telugu
+        <input type="radio" value="Tamil" type="language">Tamil
+        <br>
+        <h2>Gender:-</h2>
+        <input type="radio" value="Male" type="gender">Male
+        <input type="radio" value="Female" type="gender">Female
+        <input type="radio" value="Other" type="gender">Other
+        <br><br>
+
+        <label for="dob-day">Date of Birth</label><br><br>
+        <select id="dob-day" name="dob-day" required>
+        <option>Day</option>
+          <script>
+            for (let i = 1; i <= 31; i++) {
+              document.write(`<option value="${i}">${i}</option>`);
+            }
+          </script>
+        </select>
+
+  <select id="dob-month">
+    <option>Month</option>
+    <option>January</option>
+    <option>February</option>
+    <option>March</option>
+    <option>April</option>
+    <option>May</option>
+    <option>June</option>
+    <option>July</option>
+    <option>August</option>
+    <option>September</option>
+    <option>October</option>
+    <option>November</option>
+    <option>December</option>
+  </select>
+
+  
+  <select id="dob-year" name="dob-year" required>
+    <option value="">Year</option>
+    <script>
+      const currentYear = new Date().getFullYear();
+      for (let y = currentYear; y >= 1950; y--) {
+        document.write(`<option value="${y}">${y}</option>`);
+      }
+    </script>
+  </select>
+
+        <br><br>
+        <h2>Address:-</h2>
+        <textarea style="height: 70px;width:500px">Address.......</textarea>
+        <button type="submit" style="height: 40px;width: 200px;background-color:grey; font-size:
+        25px;color:black;position:relative;top:70px; right:500px;cursor: pointer;" onclick="finalSubmit()">Submit form</button>
+    </form>
+    <script src="js1.js"></script>
+    <script src="js2.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+.container .bookDetail{
+    display: flex;
+    color:black;
+    text-align:center;
+    justify-content:center;
+}
+#header
+{
+    font-size:30px;
+}
+p{
+    font-weight:900;
+    font-size:20px;
+}
+table {
+    width: 50%;
+    border-collapse: separate; 
+}
+
+
+
+

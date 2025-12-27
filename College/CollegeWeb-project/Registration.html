@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAGISTRATION</title>
+</head>
+<body>
+    <form id="form">
+        <h1>Registration form , only for college students </h1>
+        <caption>User name :-</caption>
+        <input type="text" placeholder="First name" size="30px">
+        <input type="text" placeholder="Last name" size="30px">
+        <br><br>
+        <caption>Roll No   :-  </caption>
+        <input type="text" placeholder="Roll no" maxlength="5" pattern="[0-9]" required size="33px">
+        <br><br>
+        <caption>Phone No :-</caption>
+        <input type="text" placeholder="Phone no" maxlength="10" required pattern="[0-9]" size="31px">
+        <br><br>
+        <caption>Imail of User :-</caption>
+        <input type="email" placeholder="Email id" maxlength="15" minlength="11" pattern="[0-9]{a-z} required" size="28px" aria-required="true" aria-invalid="false" fdprocessedid="mdgr8">
+        <br><br>
+        <h2>Select your Eduaction </h2>
+        <input type="radio" value="Postgraduate" type="Education">Postgraduate
+        <input type="radio" value="Undergraduate" type="Education">Undergraduate
+        <input type="radio" value="Graduate" type="Education">Graduate
+        <input type="radio" value="Other" type="Education">Other
+        <br><br>
+        <caption>Select date </caption>
+        <input type="datetime-local">
+        <br><br>
+        <h2>Upload id proof </h2>
+        <input type="file" >
+<select name="Positon of Student" id="#">
+    <option value="college student" id="#">College-student</option>
+    <option value="School-student" id="#">School-student</option>
+    <option value="Other" id="#">Other</option>
+</select>
+<p style="font-size:25px; font-weight:900;">Verification<sup style="color:red">*</sup> </p>
+<div class="recaptcha-container"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-8tcuqiq9jg20" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdMNiMTAAAAAGr0ibqKRZc3e5Z6wfLBraX9NuOY&amp;co=aHR0cHM6Ly9teWZvci5tczo0NDM.&amp;hl=en&amp;v=44LqIOwVrGhp2lJ3fODa493O&amp;size=normal&amp;anchor-ms=20000&amp;execute-ms=15000&amp;cb=kyn0klh130fj"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+<button   type="submit" style="height: 60px;width: 200px;background-color: rgb(0, 51, 255); font-size: 25px;color:white;text-align: center;padding-top:5px;font-weight: 900;border-radius: 1rem;margin-top: 10px;">Submit form</button>
+
+    </form>
+</body>
+</html>

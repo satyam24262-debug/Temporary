@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.table{
+    height: 740px;
+    width: 100%;
+    background-color:rgb(246, 242, 237);
+}
+.navbar{
+    height: 100px;
+}
+.nav{
+    height: 100px;
+    background-color:rgb(241, 232, 181);
+
+}
+.nav a{
+    text-decoration:none;
+    color:red;
+}
+.nav a:hover{
+    color:black;
+}
+img{
+    width: 100px;
+}
+.table a{
+    text-decoration:none;
+    color:red;
+}
+.table a:hover{
+    color:black;
+}
+.description{
+    background-color:rgb(237, 235, 230);
+}
+.logo{
+    background-color:rgb(232, 170, 109);
+}
+.website{
+    background-color:rgb(232, 170, 109);
+}

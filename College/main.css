@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.table{
+    height:800px;
+    width: 100%;
+    background-color:white;
+    border-collapse: collapse;
+}
+.navbar{
+    height: 100px;
+}
+.nav{
+    height: 100px;
+    background-color:antiquewhite;
+
+}
+.nav a{
+    text-decoration:none;
+    color:black;
+}
+.nav a:hover{
+    color:black;
+}
+img{
+    width: 100px;
+}
+.table a{
+    text-decoration:none;
+    color:black;
+}
+.table a:hover{
+    color:black;
+}
+.description{
+    background-color:white;
+}
+.logo{
+    background-color:rgb(232, 171, 38);
+}
+.website{
+    background-color:rgb(232, 171, 38);
+}

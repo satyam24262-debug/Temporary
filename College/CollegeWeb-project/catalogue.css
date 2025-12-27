@@ -1,0 +1,33 @@
+*{
+  padding:20px;
+  margin:0px;
+  text-align: center;
+}
+
+.catalogue{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  /* align-items:center; */
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+button{
+  background-color: #b3b000;
+  color:white;
+  border-radius: 2rem;
+  border:none;
+}
+button:hover{
+  cursor: pointer;
+  background-color: red;
+}
+
+img{
+  object-fit: cover;
+}
